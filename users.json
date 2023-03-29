@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6422e261bff46ab42d8a9c80"
+  },
+  "first_name": "Example",
+  "last_name": "Admin",
+  "email": "thisis@admin.com",
+  "password": "$2a$10$xAvLggOfNNWbQmFQom36ZeetQXiNcEUrBn17wQX2dfxFXZPoq9U0y",
+  "city": "Holon",
+  "street": "admin",
+  "admin": true,
+  "cart": [],
+  "__v": 0
+}]

@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "64008da47891cf069763a57f"
+  },
+  "name": "Cavendish",
+  "description": "These bananas are the most common variety, easily available in supermarkets in the United States. They are available in young unripe green to fully ripe, smooth yellow to riper dark yellow with brown spots. You can add them in smoothies, pancakes, or banana bread.",
+  "price": 0.2,
+  "image_id": "cavendish-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640097117891cf069763a58b"
+  },
+  "name": "Gros Michel",
+  "description": "This variety has a similar taste and size as Cavendish. It is not available as freely as the other varieties. Gros Michel has a sweet taste, a strong smell, with a creamier texture, and can be used in the preparation of banana pies!",
+  "price": 2,
+  "image_id": "gros-michel-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64009bd07891cf069763a59e"
+  },
+  "name": "Lady Finger",
+  "description": "‘Lady Finger’ bananas are 4-5 inches long, cigar-shaped sweet fruit. They have a bright yellow thin peel with dark flecks when fully ripen. The flesh is creamy and more delicious than the other common banana varieties.",
+  "price": 2,
+  "image_id": "lady-finger-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6400a97d7891cf069763a5b2"
+  },
+  "name": "Blue Java",
+  "description": "Blue Java bananas have vanilla ice-cream like flavor, and are also famous as ‘Ice cream bananas.’ They have silver-blue skin that turns pale yellow when ripe. The fruit has aromatic soft and sweet flesh. Add them to smoothies or relish their distinctive taste raw!",
+  "price": 3.5,
+  "image_id": "blue-java-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6400af747891cf069763a5b8"
+  },
+  "name": "Manzano",
+  "description": "Also known as ‘apple bananas,’ they are stout and plump, with a thick firm peel and a light, creamy flesh. Young apple bananas have a tangy and sweet taste with a hint of apple. When the fruit ripens, they have a tart-apple aroma and a flavor of tropical profile with notes of strawberry and pineapple.",
+  "price": 1,
+  "image_id": "manzano-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6400b1437891cf069763a5bc"
+  },
+  "name": "Red Banana",
+  "description": "Red bananas have red-purple skin, sweet flesh with a pink and orange tinge. Few of them are small and plump than Cavendish banana. When fully ripen, they have a cream to light pink flesh. Some of the fruits have a slight raspberry taste, and others have an earthy flavor.",
+  "price": 1.5,
+  "image_id": "red-banana-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640476a16c977333f0f43815"
+  },
+  "name": "Goldfinger",
+  "description": "Goldfinger variety is native to Honduras. It is cold-tolerant, wind, and disease-resistant. The fruit has an apple-like sweet flavor and does not turn brown when cut. This variety is a cross between Cavendish and Lady Finger.",
+  "price": 2,
+  "image_id": "goldfinger-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6404782c6c977333f0f43818"
+  },
+  "name": "Nanjangud",
+  "description": "This banana variety is the most important crop in India. It is grown in Mysore and Chamarajanagar district of Karnataka, India. The fruit is famous for its unique taste and aroma and slightly tart flavor, because of a distinct method of cultivation and black clay alluvial saline soil around Nanjangud.",
+  "price": 1.6,
+  "image_id": "nanjangud-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64047f736c977333f0f4381a"
+  },
+  "name": "Praying Hands",
+  "description": "Praying hands bananas are an unusual variety with two adjoining ‘hands’ that grow merged, hence the name. These bananas are relatively less sweet than other types and have an exceptional vanilla flavor.",
+  "price": 5.26,
+  "image_id": "praying-hands-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642022273722c9c32202ece5"
+  },
+  "name": "Fehi",
+  "description": "Fehi banana has orange to red skin, with yellow or orange flesh. It is considered more nutritious and delicious when boiled or baked. This variety is stated as ‘unpleasantly astringent’ when eaten raw as the fruit has a higher amount of starch and low sugar compared to the other banana varieties.",
+  "price": 3.2,
+  "image_id": "fehi-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642023ae3722c9c32202ece9"
+  },
+  "name": "Orinoco",
+  "description": "Orinoco banana is hardy, that survives well in cold climates and winds. They require support when bearing huge heads of fruit. The texture becomes silky and soft when they mature, with a firm and fibrous peel. However, these bananas are comparatively starchy but have a delicious sweet taste and smooth texture.",
+  "price": 1.8,
+  "image_id": "orinoco-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642024d33722c9c32202ecec"
+  },
+  "name": "Bluggoe",
+  "description": "Bluggoe banana bears fruits in large and straight shape. This variety has a starchy texture and resistant to Panama disease. Though it can be eaten raw people in Burma, Thailand, southern India, and East Africa use it for cooking only.",
+  "price": 1.2,
+  "image_id": "bluggoe-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642025ce3722c9c32202ecf0"
+  },
+  "name": "Macho Plantain",
+  "description": "Macho Plantain is common in Florida. It is the most popularly grown variety in the United States. This variety has a deep sweet-and-sour taste, making it perfect to fry or saute in butter or roast on the grill.",
+  "price": 0.5,
+  "image_id": "macho-plantain-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642027953722c9c32202ecf4"
+  },
+  "name": "Dwarf Jamaican",
+  "description": "Also known as Cuban red banana, it turns sunset yellow when ripe. It is smaller than Cavendish variety and has creamy to pink flesh with a raspberry flavor. You can slice and use in salads or eat it raw when ripe.",
+  "price": 2.5,
+  "image_id": "dwarf-jamaican-1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642027f33722c9c32202ecf6"
+  },
+  "name": "Barangan",
+  "description": "Barangan Banana has a mildly sweet taste, with yellow-colored peel with black dots. Its flesh is seedless and pure white. This variety is quite popular and enjoyed as a dessert in many regions across the tropics.",
+  "price": 2.9,
+  "image_id": "barangan-1",
+  "__v": 0
+}]
