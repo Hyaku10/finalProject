@@ -1,0 +1,29 @@
+#registerContainer {
+    height: 100vh;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+#leftColumn, #centerColumn, #rightColumn {
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+    vertical-align: top;
+}
+
+label, input, select {
+    display: block;
+}
+
+form {
+    width: 10rem;
+    align-content: start;
+    text-align: start;
+    margin: auto;
+}
+
+button {
+    margin: 2rem;
+    height: 2rem;
+    width: 8rem;
+}

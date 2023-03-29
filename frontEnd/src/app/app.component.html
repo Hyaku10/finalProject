@@ -1,0 +1,20 @@
+<div class="dark" style="text-align: center; height: fit-content; padding: 2rem">
+  <logo></logo>
+  <header></header>
+  <ng-container *ngIf="admin == 'logged_out'">
+    <loggedOut-menu></loggedOut-menu>
+    <register-login class="pad" *ngIf="loggedOutComponent=='login'"></register-login>
+    <loggedOut-products *ngIf="loggedOutComponent=='products'"></loggedOut-products>
+  </ng-container>
+  <ng-container *ngIf="admin == 'user'">
+    <user-menu></user-menu>
+    <user-products *ngIf="userComponent == 'products'"></user-products>
+    <user-cart *ngIf="userComponent == 'cart'"></user-cart>
+    <user-orders *ngIf="userComponent == 'orders'"></user-orders>
+  </ng-container>
+  <ng-container *ngIf="admin == 'admin'">
+    <admin-menu></admin-menu>
+    <admin-products *ngIf="adminComponent == 'edit'"></admin-products>
+    <add-product *ngIf="adminComponent == 'add'"></add-product>
+  </ng-container>
+</div>

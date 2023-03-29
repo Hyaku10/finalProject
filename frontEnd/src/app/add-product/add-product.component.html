@@ -1,0 +1,20 @@
+<div class="secondary pad rounded column">
+    <h3>add product</h3>
+    <form class="center">
+        <label for="name" style="display: block;"><span class="textSpace">__</span>name</label>
+        <input [(ngModel)]="name" type="text" name="name" placeholder="product name">
+
+        <label for="description" style="display: block;"><span class="textSpace">__</span>description</label>
+        <input [(ngModel)]="description" type="text" name="description" placeholder="product description">
+
+        <label for="price" style="display: block;"><span class="textSpace">__</span>price</label>
+        <input [(ngModel)]="price" type="number" name="price">
+
+        <label for="image_id" style="display: block;"><span class="textSpace">__</span>image</label>
+        <input [(ngModel)]="image_id" type="text" name="image_id" placeholder="enter png file name">
+
+        <div class="center padmini">  
+        </div>
+    </form>
+    <button class="btn-primary" (click)="handleSubmit($event)" style="display:inline-block;" type="button">add</button>
+</div>

@@ -1,0 +1,31 @@
+<div id="cart-container" class="secondary padair rounded" *ngIf="cartItems.length">
+    <div class="cartItem secondary" *ngFor="let item of cartItems" tabindex="0">
+        <div class="cartItemName">
+            <p>{{item.name}}</p>
+            <img height="100rem" [src]="getImageUrl(item.image_id)">
+        </div>
+        <div>
+            <p>Amount: </p>
+                <input id="{{item.product}}_1" type="number" value="{{item.amount}}">
+                <button class="updateButton" (click)="handleUpdate($event)" name="{{item.product}}">update</button>
+            
+        </div>
+        <div>
+            <p>Price per unit: {{item.price}}$</p>
+            <p>Total price: {{getTotal(item.price, item.amount)}}$</p>
+            <button class="totalPrice" name="{{item.price*item.amount}}" style="display: none;"></button>
+        </div>
+        <button class="removeFromCart btn-secondary" name="{{item.product}}" type="button" (click)="handleRemoveFromCart($event)">remove from cart</button>
+    </div>
+    <div id="placeOrder" class="rounded primary">
+        <p>cart total: {{cartTotal.toFixed(2)}}$</p>
+        <button class="placeOrderButton" type="button" (click)="placeOrder()">place order</button>
+    </div>
+</div>
+
+<div id="cartIsEmpty" *ngIf="!cartItems.length">
+    <img src="../../assets/banana-peel.png" height="200rem">
+    <div class="rounded secondary">
+        <h4>your cart is empty</h4>
+    </div>
+</div>

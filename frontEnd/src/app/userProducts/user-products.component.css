@@ -1,0 +1,29 @@
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+    text-align: left;
+}
+
+.card > p {
+    margin: 0%;
+}
+
+.cardBody > .description {
+    height: 6rem;
+    overflow: hidden;
+}
+
+.card > button {
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

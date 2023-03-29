@@ -1,0 +1,39 @@
+<div id="registerContainer">
+    <h4>register</h4>
+    <div id="leftColumn">
+        <form>
+            <label for="first"><span class="textSpace">__</span>First name</label>
+            <input name="first" type="text" [(ngModel)]="first">
+            <label for="last"><span class="textSpace">__</span>last name</label>
+            <input name="last" [(ngModel)]="last">
+            <label for="email"><span class="textSpace">__</span>Email</label>
+            <input name="email" type="email" [(ngModel)]="email">
+        </form>
+    </div>
+    <div id="rightColumn">
+        <form>
+            <label for="password"><span class="textSpace">__</span>password</label>
+            <input name="password" type="password" [(ngModel)]="password">
+            <label for="confirm"><span class="textSpace">__</span>confirm password</label>
+            <input name="confirm" type="password" [(ngModel)]="confirm">
+            <label for="city"><span class="textSpace">__</span>City</label>
+            <select [(ngModel)]="city" name="city">
+                <option selected hidden>select city</option>
+                <option value="Tel Aviv">Tel Aviv</option>
+                <option value="Jerusalem">Jerusalem</option>
+                <option value="Haifa">Haifa</option>
+                <option value="Petah Tikva">Petah Tikva</option>
+                <option value="Netanya">Netanya</option>
+                <option value="Ashdod">Ashdod</option>
+                <option value="Holon">Holon</option>
+                <option value="Afula">Afula</option>
+                <option value="Beit Shean">Beit Shean</option>
+                <option value="Nir David">Nir David</option>
+            </select>
+            <label for="street"><span class="textSpace">__</span>street</label>
+            <input name="street" type="text" [(ngModel)]="street">
+        </form>
+    </div>
+    <button class="btn-primary" type="button" (click)="handleSubmit()">submit</button>
+    <button class="btn-secondary" type="button" (click)="emitLogin()">login</button>
+</div>

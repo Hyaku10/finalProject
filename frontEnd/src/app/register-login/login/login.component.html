@@ -1,0 +1,13 @@
+<div id="loginContainer">
+    <h4>Login</h4>
+    <div id="column">
+        <form>
+            <label for="email"><span class="textSpace">__</span>Email</label>
+            <input name="email" type="email" [(ngModel)]="email">
+            <label for="password"><span class="textSpace">__</span>password</label>
+            <input name="password" type="password" [(ngModel)]="password">
+        </form>
+    </div>
+    <button class="btn-primary" type="button" (click)="handleSubmit()">login</button>
+    <button class="btn-secondary" type="button" (click)="emitRegister()">register</button>
+</div>

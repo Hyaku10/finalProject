@@ -1,0 +1,28 @@
+h3{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#column {
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    vertical-align: top;
+}
+
+label, input, select {
+    display: block;
+}
+
+form {
+    width: 10rem;
+    align-content: start;
+    text-align: start;
+    margin: auto;
+}
+
+button {
+    margin: 2rem;
+    height: 2rem;
+    width: 8rem;
+}

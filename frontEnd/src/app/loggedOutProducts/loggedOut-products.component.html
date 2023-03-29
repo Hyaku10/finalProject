@@ -1,0 +1,11 @@
+<div id="card-container" class="secondary padair rounded">
+    <div class="card primary" *ngFor="let product of products" tabindex="0">
+        <img height="100rem" [src]="getImageUrl(product.image_id)">
+        <p>{{product.name}}</p>
+        <div class="cardBody secondary">
+            <p class="description">{{product.description}}</p>
+            <p>Price per unit: {{product.price}}$</p>
+        </div>
+        <button class="" name="{{product._id}}" (click)="handleAddToCart($event)" type="button">add to cart</button>
+    </div>
+</div>

@@ -1,0 +1,166 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rounded {
+    border-radius: 3rem;
+    border: 0.2rem solid black;
+  }
+.center{
+    align-content: center;
+}
+.pad {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.padmini {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.padair {
+    margin-top: 2rem;
+}
+.circle{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 3rem;
+    border: 0.2rem solid black;
+    background-color: mediumseagreen;
+    font-size: larger;
+    margin-left: 0.5rem;
+}
+.log-out{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    border: 0.2rem solid black;
+    margin-left: auto;
+    font-size: larger;
+}
+
+#container{
+    margin: 0;
+    padding: 0;
+    height: 5rem;
+    align-content: space-between;
+}
+
+input, select{
+    margin-bottom: 1rem;
+    background-color:lightyellow;
+    border-radius: 1rem;
+    height: 1.5rem;
+    border: 0.1rem solid black;
+}
+
+button{
+    border-radius: 1rem;
+    background-color: mediumseagreen;
+}
+
+button:hover{
+    background-color: springgreen;
+}
+button:active{
+    background-color: darkseagreen;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 10rem;
+    height: 20rem;
+    border-radius: 3rem;
+    border: 0.2rem solid black;
+    margin: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    position: relative;
+    transition: all 0.3s ease;
+    z-index: 1;
+    overflow: hidden;
+}
+.card:hover{
+    background-color: springgreen;
+}
+.card:focus-within{
+    background-color: springgreen;
+    width: 37rem;
+    height: 20rem;
+    z-index: 5;
+    overflow-y: scroll;
+}
+
+.productName {
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.btn-primary{
+    background-color: seagreen;
+}
+
+.btn-secondary{
+    background-color: lightgray;
+}
+
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: auto;
+    height: 10rem;
+    border-radius: 5rem;
+    border: 0.2rem solid black;
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-right: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.primary {
+    background-color: mediumseagreen;
+  }
+
+.secondary{
+    background-color: lemonchiffon;
+}
+
+.dark {
+    background-color: seagreen;
+}
+
+.textSpace {
+    color: lemonchiffon;
+}
+
+#logo{
+    height: 5rem;
+    width: 5rem;
+    align-self: left;
+    vertical-align: center;
+}
+
+#header{
+    margin: 0%;
+    height: 5rem;
+    vertical-align: top;
+    width: auto;
+}
+
+HTML::-webkit-scrollbar {
+    width: 0.5rem;
+}
+HTML::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 1rem;
+    border: mediumseagreen 0.2rem solid;
+}
+HTML::-webkit-scrollbar-track {
+    background-color: mediumseagreen;
+}

@@ -1,0 +1,23 @@
+<div id="card-container" class="secondary padair rounded">
+    <div class="card primary" *ngFor="let product of products" tabindex="0">
+        <img height="100rem" [src]="getImageUrl(product.image_id)">
+        <p>{{product.name}}</p>
+        <div class="cardBody secondary">
+            <p class="description">{{product.description}}</p>
+            <p>Price per unit: {{product.price}}$</p>
+        </div>
+        <p>edit product:</p>
+        <select [(ngModel)]="target">
+            <option selected disabled>choose update target</option>
+            <option value="name">name</option>
+            <option value="description">description</option>
+            <option value="price">price</option>
+            <option value="image_id">image</option>
+        </select>
+        <input *ngIf="target == 'name' || target == 'image_id'" type="text" [(ngModel)]="value">
+        <input *ngIf="target == 'price'" type="number" [(ngModel)]="value">
+        <input *ngIf="target == 'description'" type="text" [(ngModel)]="value" style="width: 20rem; height: 5rem;">
+        <button class="edit-btn" name="{{product.name}}" (click)="handleEdit($event)" type="button">update</button>
+        <button class="delete-btn" name="{{product.name}}" (click)="handleDelete($event)" type="button">delete product</button>
+    </div>
+</div>

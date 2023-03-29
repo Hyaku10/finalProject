@@ -1,0 +1,18 @@
+<div id="orders-container" class="secondary padair rounded" *ngIf="orders.length">
+    <div class="order primary" *ngFor="let item of orders" tabindex="0">
+        <p>order from: {{formatDate(item.date)}}</p>
+        <div>
+            <p>Items:</p>
+            <p *ngFor="let i of item.items">{{i.product.name}} x {{i.amount}}</p>
+        </div>
+        <p>Total price: {{item.price.toFixed(2)}}$</p>
+        <p>Shipping address: {{item.user.first_name}} {{item.user.last_name}}, {{item.street}}, {{item.city}}</p>
+    </div>
+</div>
+
+<div id="ordersIsEmpty" *ngIf="!orders.length">
+    <img src="../../assets/banana-peel.png" height="200rem">
+    <div class="rounded secondary">
+        <h4>no orders to display</h4>
+    </div>
+</div>

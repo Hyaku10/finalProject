@@ -1,0 +1,9 @@
+<div class="secondary rounded">
+    <ng-container *ngIf="display == 'login'">
+        <app-login (setDisplay)="display=$event"></app-login>
+    </ng-container>
+
+    <ng-container *ngIf="display == 'register'">
+        <app-register (setDisplay)="display=$event"></app-register>
+    </ng-container>
+</div>
